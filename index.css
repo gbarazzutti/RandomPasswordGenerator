@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #1C1C1C;
+}
+
+.container{
+    width: 550px;
+    height: 550px;
+    background: #1F2937;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 64px;
+    padding-top: 115px;
+    padding-left: 52px;
+    padding-right: 52px;
+}
+
+h1{
+    width: 354px;
+    height: 80px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;  
+    margin-bottom: 10px;
+}
+
+span{
+    color: #4ADF86;
+}
+
+#subtitle{
+    width: 372px;
+    height: 28px;
+    left: 52px;
+    top: 205px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D5D4D8;
+}
+
+button{
+    width: 191px;
+    height: 42px;
+    background: #10B981;
+    border-radius: 6px;
+    border: none;
+    color: #FFFFFF;
+    margin-top: 51px;
+}
+
+hr{
+    width: 100%;
+    border: 1px solid #2F3E53;
+    margin-top: 35px;
+}
+
+.password-fields{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.field{
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    text-align: center;
+    color: #55F991;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
