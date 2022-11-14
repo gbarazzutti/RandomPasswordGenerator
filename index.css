@@ -21,6 +21,7 @@ body {
 
 h1{
     width: 354px;
+    max-width: 80vw;
     height: 80px;
     font-style: normal;
     font-weight: 800;
@@ -28,7 +29,6 @@ h1{
     line-height: 40px;
     letter-spacing: -0.025em;
     color: #FFFFFF;  
-    margin-bottom: 10px;
 }
 
 span{
@@ -38,23 +38,12 @@ span{
 #subtitle{
     width: 372px;
     height: 28px;
-    left: 52px;
-    top: 205px;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     color: #D5D4D8;
-}
-
-button{
-    width: 191px;
-    height: 42px;
-    background: #10B981;
-    border-radius: 6px;
-    border: none;
-    color: #FFFFFF;
-    margin-top: 51px;
+    display: block;
 }
 
 hr{
@@ -82,4 +71,66 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.generator{
+    margin-left: auto;
+    margin-right: auto;
+    width: 191px;
+    height: 42px;
+    background: #10B981;
+    border-radius: 6px;
+    border: none;
+    color: #FFFFFF;
+    margin-top: 51px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    body{
+        text-align: center;
+    }
+
+    .title{
+        margin-left: auto;
+        margin-right: auto;
+    }    
+    p{
+        display: inline-block;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 80vw;
+        text-align: center;
+    }    
+    .container{
+        min-width: 350px;
+        margin-left: auto;
+        margin-right: auto;  
+        max-width: 80vw; 
+        padding: 50px 20px;
+    }
+
+    .password-fields{
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto; 
+        margin-top: 30px;
+    } 
+
+    h1{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .field{
+        margin: 20px;
+    }
 }
