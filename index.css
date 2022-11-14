@@ -1,7 +1,8 @@
 *{
     box-sizing: border-box;
 }
-body {
+
+body{
     margin: 0;
     padding: 0;
     background: #1C1C1C;
@@ -15,19 +16,15 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 64px;
-    padding-top: 50px;
-    padding-left: 52px;
-    padding-right: 52px;
+    padding: 50px;
 }
 
 h1{
     width: 354px;
     max-width: 80vw;
-    height: 80px;
     font-style: normal;
     font-weight: 800;
     font-size: 40px;
-    line-height: 40px;
     letter-spacing: -0.025em;
     color: #FFFFFF;  
     margin-bottom: 30px;
@@ -35,9 +32,7 @@ h1{
 
 span{
     color: #4ADF86;
-    margin-bottom: 50px;
     display: inline-block;
-    margin-top: 10px;
 }
 
 #subtitle{
@@ -117,14 +112,13 @@ hr{
         margin-left: auto;
         margin-right: auto;  
         max-width: 80vw; 
-        padding: 50px 20px;
+        padding: 20px;
+        height: 600px;
     }
 
     .password-fields{
-        display: inline-block;
-        margin-left: auto;
-        margin-right: auto; 
-        margin-top: 30px;
+        display: inline-block; 
+        margin: 30px auto;
     } 
 
     h1{
@@ -133,6 +127,6 @@ hr{
     }
 
     .field{
-        margin: 20px;
+        margin-bottom: 20px;
     }
 }
